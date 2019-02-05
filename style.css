@@ -1,0 +1,35 @@
+body {
+	color: black;
+	padding: 35px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input{
+	margin-bottom: 2%;
+}
+
+h1 {
+	margin-bottom: 5%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin-bottom: 5%;
+}
+
+.button {
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
