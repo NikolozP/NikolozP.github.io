@@ -1,13 +1,15 @@
+var _ = require('lodash');
+
 /**
  * Variables
- */ 
+ */
 var color1 = document.getElementById("leftColor");
 var color2 = document.getElementById("rightColor");
 var body = document.querySelector("body");
 var text = document.querySelector("h3");
 var button = document.querySelector("button");
 
-/** 
+/**
  * Logic
  */
 changeColor();
@@ -17,7 +19,7 @@ color2.addEventListener("input", changeColor);
 
 button.addEventListener("click", swapColors);
 
-/** 
+/**
  * Functions
  */
 // Changes color of the background
